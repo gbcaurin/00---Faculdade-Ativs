@@ -1,0 +1,93 @@
+#Leia um numero inteiro e imprima resultado da diferença do seu triplo pelo dobro do seu sucessor. 1
+#num = int(input("Digite um numero inteiro:"))
+#trip = num * 3
+#dobr = (num + 1) * 2
+#dif = trip - dobr
+#print("A diferença é:", dif)
+
+
+#Determine a area de um triangulo. 2
+#n1 = int(input("Digite a altura do triangulo:"))
+#n2 = int(input("Digite a base do triangulo:"))
+#area = (n1 * n2) / 2
+#print("A area do seu triangulo é de:", area)
+
+
+#Leia o salario mensal de um funcionario e o percentual de reajuste e determine o valor do novo salario. 3
+#sal = float(input("Digite o valor do seu salario:"))
+#rea = float(input("Digite o percentual do reajuste do seu salario:"))
+#reatotal = rea / 100
+#total = sal * reatotal
+#totalsal = sal + total
+#print("O seu salario liquido é de:", totalsal)
+
+
+#Calcule o valor de um cubo. 4
+#inp = int(input("Digite o valor da aresta do cubo:"))
+#area = inp ** 3
+#print("O volume do cubo é de:", area)
+
+
+#Elabora um programa que dada uma distância percorrida (em km), bem como o total de combustivel gasto (em litros), informe o consumo do veiculo. 5
+#km = int(input("Digite quantos KMs você percorreu:"))
+#litro = int(input("Digite o total de combustivel gasto em Litros:"))
+#kmL = km // litro
+#print("O consumo do veiculo foi de:", kmL, "km/L")
+
+
+#Faça um programa que dadas as medidas de uma sala em metro (comprimento e largura), bem como o preço do metro quadrado de carpete, informe o custo total para forrar o piso da sala. 6
+#larg = float(input("Digite a largura da sala em Metros:"))
+#compri = float(input("Digite o comprimento da sala em Metros:"))
+#area = larg * compri
+#precom2 = 7.5
+#custo = area * precom2
+#print("Voce ira gastar", custo,"Reais para preencher usa sala com carpete")
+
+
+#Calcule o IMC. 7
+#peso = float(input("Digite o seu peso em Quilos:"))
+#altura = float(input("Digite sua altura em Metros:"))
+#imc = peso / (altura * altura)
+#print("Seu IMC é de", imc)
+
+
+
+#Elaborar um programa que dado um valor X de um concurso em reais, ele imrpima a quantia ganha por cada jogador.  8
+#value = float(input("Digite o valor total em R$:"))
+#fst = value * 0.46
+#scnd = value * 0.32
+#thrd=  value * 0.22
+#print("O valor do primeiro lugar sera de", fst, "Reais. A do segundo sera de", scnd, "Reais. E o terceiro lugar sera de", thrd)
+
+
+#Caixa de uma loja.  9
+valor = int(input("Digite o valor da sua compra:"))
+pay = int(input("Digite quando voce ira dar em dinheiro:"))
+troco = pay - valor
+if troco == 0:
+  print("Não tem troco para devolver.")
+else:
+ c_100 = troco // 100
+ troco = troco % 100
+ c_50 = troco // 50
+ troco = troco % 50
+ c_20 = troco // 20
+ troco = troco % 20
+ c_10 = troco // 10
+ troco = troco % 10
+ c_5 = troco // 5
+ troco = troco % 5
+ c_1 = troco //1
+ troco = troco % 1
+ if c_100 > 0:
+   print(c_100, "cedulas de R$100")
+ if c_50 > 0:
+   print(c_50, "cedulas de R$50")
+ if c_20 > 0:
+    print(c_20, "cedulas de R$20")
+ if c_10 > 0:
+    print(c_10, "cedulas de R$10")
+ if c_5 > 0:
+    print(c_5, "cedulas de R$5")
+ if c_1 > 0:
+    print(c_1, "cedulas de R$1")
