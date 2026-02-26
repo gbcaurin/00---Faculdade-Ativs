@@ -57,37 +57,32 @@
 #fst = value * 0.46
 #scnd = value * 0.32
 #thrd=  value * 0.22
-#print("O valor do primeiro lugar sera de", fst, "Reais. A do segundo sera de", scnd, "Reais. E o terceiro lugar sera de", thrd)
+#print("O primeiro colocado ganhou R$:", fst, "\n","O segundo colocado ganhou R$:", scnd, "\n", "O terceiro colocado ganhou R$:", thrd)
 
 
 #Caixa de uma loja.  9
-valor = int(input("Digite o valor da sua compra:"))
-pay = int(input("Digite quando voce ira dar em dinheiro:"))
-troco = pay - valor
-if troco == 0:
-  print("Não tem troco para devolver.")
-else:
- c_100 = troco // 100
- troco = troco % 100
- c_50 = troco // 50
- troco = troco % 50
- c_20 = troco // 20
- troco = troco % 20
- c_10 = troco // 10
- troco = troco % 10
- c_5 = troco // 5
- troco = troco % 5
- c_1 = troco //1
- troco = troco % 1
- if c_100 > 0:
-   print(c_100, "cedulas de R$100")
- if c_50 > 0:
-   print(c_50, "cedulas de R$50")
- if c_20 > 0:
-    print(c_20, "cedulas de R$20")
- if c_10 > 0:
-    print(c_10, "cedulas de R$10")
- if c_5 > 0:
-    print(c_5, "cedulas de R$5")
- if c_1 > 0:
-    print(c_1, "cedulas de R$1")
+#valor = int(input("Digite o valor da sua compra:"))
+#pay = int(input("Digite quando voce ira dar em dinheiro:"))
+#troco = pay - valor
+#if troco == 0:
+  #print("Não tem troco para devolver.")
+#else:
+ #c_100 = troco // 100
+ #troco = troco % 100
+ #c_50 = troco // 50
+ #troco = troco % 50
+ #c_20 = troco // 20
+ #troco = troco % 20
+ #c_10 = troco // 10
+ #troco = troco % 10
+ #c_5 = troco // 5
+ #troco = troco % 5
+ #c_1 = troco //1
+ #troco = troco % 1
+ #print(c_100, "cedula(s) de R$100\n",
+        #c_50, "cedula(s) de R$50\n",
+          #c_20, "cedula(s) de R$20\n",
+            #c_10, "cedula(s) de R$10\n",
+              #c_5, "cedula(s) de R$5\n",
+                #c_1, "cedula(s) de R$1")
+ 
