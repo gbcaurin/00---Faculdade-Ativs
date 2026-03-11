@@ -93,3 +93,71 @@
     #print("Peso Médio")
   #else:
     #print("Peso Pesado")
+
+#10 pula pois eh igual o 4
+
+
+#Ler dois numeros e descobrir se eles estão na origem, no eixo X, no eixo Y ou em qual quadrante estão.  11
+#x = float(input("Digite um número X: "))
+#y = float(input("Digite outro número Y: "))
+#if x == 0 and y == 0:
+    #print("Os números estão na origem.(0,0)")
+#if x == 0 and y != 0:
+    #print("Os números estão no eixo Y.")
+#if x != 0 and y == 0:
+    #print("Os números estão no eixo X.")
+#if x > 0 and y > 0:
+    #print("Os números estão no primeiro quadrante.")
+#if x < 0 and y < 0:
+    #print("Os números estão no terceiro quadrante.")
+#if x < 0 and y > 0:
+    #print("Os números estão no segundo quadrante.")
+#if x > 0 and y < 0:
+    #print("Os números estão no quarto quadrante.")
+
+
+#Descobrir se os numeros formam um triangulo, se sim, descobrir qual tipo de triangulo.  12
+#a = int(input("Digite um número inteiro: "))
+#b = int(input("Digite outro número inteiro: "))
+#c = int(input("Digite mais um número inteiro: ")) 
+#if a < c+b and b < a+c and c < a+b:
+  #if a == b and b == c and a == c:
+    #print("Os números formam um triângulo equilátero.")
+  #if a == b and a != c or a == c and a != b or b == c and b != a:
+    #print("Os números formam um triângulo isósceles.")
+  #if a != b and a != c and b != c:
+    #print("Os números formam um triângulo escaleno.")
+#else:
+  #if a >= b+c:
+    #print(f"O número {a} é maior ou igual à soma de {b} e {c}, portanto não formam um triângulo.")
+  #if b >= a+c:
+    #print(f"O número {b} é maior ou igual à soma de {a} e {c}, portanto não formam um triângulo.")
+  #if c >= a+b:
+    #print(f"O número {c} é maior ou igual à soma de {a} e {b}, portanto não formam um triângulo.")
+
+
+#Ler os coeficientes de uma equação do segundo grau e calcular as raízes.  13
+#a = int(input("Digite o valor de A: "))
+#b = int(input("Digite o valor de B: "))
+#c = int(input("Digite o valor de C: "))
+##delta = (b ** 2) - (4 * a * c)
+#if delta < 0 or a == 0:
+    #print("A equação não possui raízes reais.")
+#else:
+    #b_plus = (-b + (delta ** 0.5)) / (2 * a)
+    #b_minus = (-b - (delta ** 0.5)) / (2 * a)
+    #print(f"As raízes da equação são: {b_plus} e {b_minus}.")
+
+
+a, b, c, d, e, f = map(int, input("Digite os coeficientes da equação (A, B, C, D, E, F): ").split())
+if (a * e) - (b * d) != 0:
+    x = ((c * e) - (b * f)) / ((a * e) - (b * d))
+    y = ((a * f) - (c * d)) / ((a * e) - (b * d))
+    print(f"As soluções da equação são: x = {x:.2f} e y = {y:.2f}.")
+else:
+    print("A equação não possui soluções.")
+
+    
+
+
+  
