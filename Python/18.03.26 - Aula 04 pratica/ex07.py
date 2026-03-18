@@ -1,4 +1,4 @@
- 
+#Faça um programa que leia um código de produto e apresente a categoria do produto de acordo com a tabela abaixo:
 cod = int(input("Digite o código para descobrir o produto: "))
 
 if cod == 1:

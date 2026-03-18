@@ -1,4 +1,4 @@
-
+#Faça um programa que leia dois números inteiros e apresente a opcao que for escolhida
 n1 = int(input("Digite um número inteiro: "))
 n2 = int(input("Digite outro número inteiro: "))
 

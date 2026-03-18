@@ -1,3 +1,4 @@
+#Verificar se um número está entre outros dois números
 while True:
   n1 = int(input("Digite um número: "))
   n2 = int(input("Digite outro número: "))

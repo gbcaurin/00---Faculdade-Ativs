@@ -1,3 +1,4 @@
+#Acrescentar ao salário de um funcionário um aumento de acordo com o plano escolhido pelo user
 print("Plano 1 - 10%")
 print("Plano 2 - 15%")
 print("Plano 3 - 20%")

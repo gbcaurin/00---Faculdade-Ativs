@@ -1,3 +1,4 @@
+#Elevar um numero inteiro por outro inteiro sem utilizar funcoes ou **
 x = int(input("Digite um número inteiro: "))
 n = int(input("Digite um número inteiro para elevar o primeiro: "))
 
